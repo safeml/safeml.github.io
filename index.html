@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANR SAFE — Controlling Networks with Safety Bounded and Interpretable Machine Learning</title>
+  <meta name="description" content="The ANR SAFE project designs safety bounded and interpretable machine learning approaches for network control.">
+  <meta property="og:title" content="ANR SAFE project">
+  <meta property="og:description" content="Controlling Networks with Safety Bounded and Interpretable Machine Learning.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/logo-square.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="ANR SAFE project logo"></a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="team.html">Team</a>
+        <a href="research.html">Research</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="hero-badge">ANR project &middot; France</span>
+        <h1>SAFE</h1>
+        <p class="tagline">Controlling networks with safety bounded and interpretable machine learning</p>
+        <p class="lede">The SAFE project combines the strengths of traditional networking models and data-driven AI — graph neural networks and reinforcement learning — to build network control systems that are natively safety-bounded, interpretable and self-adaptive.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="team.html">Meet the team</a>
+          <a class="btn btn-ghost" href="research.html">Explore the research</a>
+          <a class="btn btn-ghost" href="https://github.com/safeml" target="_blank" rel="noopener">Code on GitHub</a>
+        </div>
+      </div>
+      <div class="partners-strip">
+        <div class="container">
+          <p class="label">In partnership with</p>
+          <div class="logos">
+            <img src="assets/img/partners/anr.jpg" alt="ANR logo">
+            <img src="assets/img/partners/ujm.png" alt="Université Jean Monnet">
+            <img src="assets/img/partners/cnrs.png" alt="XLIM, CNRS">
+            <img src="assets/img/partners/univ-rennes.png" alt="Université de Rennes">
+            <img src="assets/img/partners/univ-cotedazur.png" alt="Université Côte d'Azur">
+            <img src="assets/img/partners/huawei.png" alt="Huawei">
+            <img src="assets/img/partners/qos-design.png" alt="QoS Design">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">About the project</span>
+          <h2>Safety-bounded and Interpretable ML for Networks</h2>
+        </div>
+        <div class="prose reveal" style="max-width: 860px; margin: 0 auto;">
+          <p>When applied to communication networks, traditional approaches for control and decision-making require a comprehensive knowledge of system and user behaviours, which can become impractical as networks grow in scale and complexity. Data-driven AI approaches do not have this drawback, but offer no safety bounds and are difficult to interpret.</p>
+          <p>Today, computer networks are facing important architectural transformations. Software Defined Networking (SDN) introduced the decoupling of control and data planes; network virtualisation, data plane programmability, in-network processing with AI accelerators and programmable pipelines enable more agility and intelligence inside networks. Most of this transformation is supported by the long-term vision of <strong>self-driving networks</strong>, where automation and intelligence are two essential ingredients.</p>
+          <p>Network and service providers are facing increasing complexity, an ever-growing variety of traffic and applications, and users demanding better Quality of Experience (QoE) — while OPEX/CAPEX must stay contained. Networks should largely self-manage: routing, resource allocation, QoE and traffic engineering all require new algorithms for decision-making and control.</p>
+        </div>
+        <blockquote class="pullquote reveal">
+          Networking knowledge-based approaches and data-driven approaches should work in synergy: models guide and control the learning of data-driven ML, which in turn learns about new situations from new data.
+        </blockquote>
+        <div class="prose reveal" style="max-width: 860px; margin: 0 auto;">
+          <p>Control and decision-making algorithms are critical for the operation of networks, hence the solutions should be <strong>safety bounded and interpretable</strong>. This is a scientific barrier that needs to be lifted, as network operators are reluctant to use ML in production networks because of their critical and sensitive nature — outages and performance degradations can be very costly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Objectives</span>
+          <h2>Three main scientific objectives</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <span class="num">01</span>
+            <h3>Hierarchical architecture</h3>
+            <p>A machine-learning architecture with a global AI running at the central controller level and local AIs running at the edge device level, for decision-making in partially as well as fully observable and controllable environments. The global AI controls, configures and installs policies on the local AIs.</p>
+          </article>
+          <article class="card reveal">
+            <span class="num">02</span>
+            <h3>Partially observable environments</h3>
+            <p>New safety-bounded and interpretable algorithms for intelligent path selection, automatic queueing and scheduling in partially observable and controllable environments. Key use case: SD-WANs, where edge devices at customer premises collaboratively operate an overlay on top of an uncontrollable, only partially observable core network.</p>
+          </article>
+          <article class="card reveal">
+            <span class="num">03</span>
+            <h3>Fully observable environments</h3>
+            <p>New safety-bounded and interpretable algorithms for flow scheduling, software-defined routing and traffic engineering, targeting data centers and private WANs connecting multiple data centers, performing closed-loop actions to improve network utilisation and optimise QoS and QoE.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Technical approach</span>
+          <h2>Reinforcement learning &amp; graph neural networks</h2>
+        </div>
+        <div class="approach reveal">
+          <div>
+            <h3><span class="chip">RL</span>Reinforcement Learning</h3>
+            <p>RL agents learn an optimal policy by interacting with the environment. Deep Reinforcement Learning (DRL) extends RL with neural networks to enhance the learning capabilities of intelligent agents — for partially observable environments and for traffic engineering in SD-WAN. DRL has also been applied inside data center networks.</p>
+            <h3><span class="chip">GNN</span>Graph Neural Networks</h3>
+            <p>Initial ML-based routing approaches that ignore the graph topology of networks may not outperform domain-knowledge models. GNNs capture key properties from the topology and network conditions, and learnt models generalise over new topologies. SAFE combines GNNs with optimisation to cope with the combinatorial nature of routing and traffic engineering, and with DRL to handle their dynamic nature.</p>
+          </div>
+          <figure class="figure">
+            <img src="assets/img/architecture.png" alt="SAFE hierarchical architecture: a global AI at the controller level cooperating with local AIs at the network edge" loading="lazy">
+            <figcaption>SAFE: intelligence distributed between a global AI (central level) and local AIs (edge level).</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Index terms</span>
+          <h2>Keywords</h2>
+        </div>
+        <div class="terms reveal">
+          <span class="term">Reinforcement Learning</span>
+          <span class="term">SDN</span>
+          <span class="term">5G</span>
+          <span class="term">Internet</span>
+          <span class="term">CPE</span>
+          <span class="term">Resource Allocation</span>
+          <span class="term">Cloud</span>
+          <span class="term">SD-WAN</span>
+          <span class="term">Safety bounded &amp; interpretable</span>
+          <span class="term">QoS &amp; QoE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Partners</span>
+          <h2>Consortium</h2>
+          <p>A collaboration between French universities and industry, funded by the French National Research Agency (ANR).</p>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/anr.jpg" alt="ANR logo"></div>
+            <p class="name">ANR</p>
+            <p class="role">Funding agency</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/ujm.png" alt="Université Jean Monnet logo"></div>
+            <p class="name">Université Jean Monnet</p>
+            <p class="role">LabHC, Saint-Étienne</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/cnrs.png" alt="CNRS logo"></div>
+            <p class="name">CNRS</p>
+            <p class="role">XLIM, Poitiers</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/univ-rennes.png" alt="Université de Rennes logo"></div>
+            <p class="name">Université de Rennes</p>
+            <p class="role">IRISA, Rennes</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/univ-cotedazur.png" alt="Université Côte d'Azur logo"></div>
+            <p class="name">Université Côte d'Azur</p>
+            <p class="role">Nice</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/huawei.png" alt="Huawei logo"></div>
+            <p class="name">Huawei</p>
+            <p class="role">Industry partner</p>
+          </div>
+          <div class="partner-tile reveal">
+            <div class="logo-box"><img src="assets/img/partners/qos-design.png" alt="QoS Design logo"></div>
+            <p class="name">QoS Design</p>
+            <p class="role">Industry partner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Follow the scientific output</h2>
+      <p>SAFE results are published in top venues — browse the project's publications, all indexed on HAL.</p>
+      <a class="btn btn-primary" href="research.html">Read the publications</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-line"><img src="assets/img/logo-white-bg.png" alt="ANR SAFE project logo"></div>
+          <p>SAFE - Controlling networks with safety bounded and interpretable machine learning.</p>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="team.html">Team</a>
+            <a href="research.html">Research</a>
+            <a href="https://github.com/safeml" target="_blank" rel="noopener">GitHub</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Consortium</h4>
+          <p>Université Jean Monnet (LabHC)<br>CNRS (XLIM)<br>Université de Rennes (IRISA)<br>Université Côte d'Azur<br>Huawei &middot; QoS Design</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> ANR SAFE project. Funded by the Agence nationale de la recherche (ANR).</span>
+        <span>Built by the project team.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
